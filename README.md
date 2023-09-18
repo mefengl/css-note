@@ -130,3 +130,30 @@
   @include ripple;
 }
 ```
+
+## styles
+
+## decoration
+
+```css
+element {
+  position: relative;
+}
+
+element::before {
+  content: "";
+
+  background: linear-gradient(90deg, orange 0%, rgba(255, 165, 0, 0.00) 100%);
+  opacity: 0.3;
+
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 20px;
+
+  width: 120%;
+  height: 50%;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+```
